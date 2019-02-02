@@ -1,0 +1,9 @@
+body{
+    padding: 20px;
+    background-image: url(../1.jpg),url(../images.jpg); /*giv ,jpg ,PNG ,SVG*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-origin: border-box;
+    background-size: 100% 100%;
+    /*background: url(../1.jpg) center center / 40% no-repeat fixed #ff5;*/
+}

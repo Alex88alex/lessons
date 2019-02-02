@@ -1,0 +1,61 @@
+    a.button{
+    border: 1px solid red;
+    background-color: rgb(40, 50, 50);
+    color: #fff;
+    padding: 1px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+a.button:hover {
+    border: 1px solid red;
+    background-color: rgb(200, 200, 200);
+    color: #000 ;
+    padding: 1px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+span.button2{
+    position: relative;
+    background-position: left top;
+    width: 25px;
+    height: 34px;
+    background-image: url(../nav.png);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    display: inline-block;
+     
+}
+span.button2:hover{
+    background-position: left top -34px ;
+    cursor: pointer;
+    background-origin: content-box;
+}
+.nav{
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    border: 1px solid red;
+}
+/*.nav a{
+    display: block;
+     width: 200px;
+     background: rgb(206, 206, 121);
+     line-height: 1.5em;
+     padding: 5px;
+     margin: 3px;
+     border-radius: 4px;
+}*/
+.nav li{
+    display: inline;
+}
+.nav a{
+    display: inline-block;
+    border: 1px dashed rgb(32, 28, 28);
+    padding: 10px 50px;
+     background: rgb(180, 94, 159);
+     text-decoration: none;
+     color: aliceblue;
+     border-radius: 10px;
+}
